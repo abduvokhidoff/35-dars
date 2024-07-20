@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #101220;
+}
+.header_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #0C0E1866;
+}
+.select{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+.select>h1{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color: #fff;
+}
+.custom-select-wrapper {
+    position: relative;
+    user-select: none;
+    width: 400px;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 150px;
+}
+.select-trigger span{
+    color: white;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+
+}
+.select-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+}
+
+.select-trigger .arrow {
+    width: 0;
+    height: 0;
+    margin-left: 10px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid white;
+}
+
+.custom-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #282828;
+    border: 1px solid #3b3b3b;
+    border-radius: 4px;
+    margin-top: 5px;
+    display: none;
+    flex-direction: column;
+    z-index: 5;
+    color: white;
+}
+
+.custom-options.show {
+    display: flex;
+}
+
+.custom-option {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.custom-option:hover {
+    background: #505050;
+}
+
+.custom-option.selected {
+    background: #707070;
+}
+.button{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.button p{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: right;
+color: #fff;
+}
+.button button{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+color: #333333;
+padding: 9px 66px;
+border-radius: 15px;
+border: none;
+background-color: #BFAFF2;
+}
+.main_container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 40px 125px 40px;
+    margin-top: 418px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 59px 16px 33px 16px;
+    position: relative;
+    background: #232028;
+    width: 345px;
+    height: 240px;
+    border-radius: 32px;
+    align-items: center;
+}
+.box img{
+    position: absolute;
+    top: -277px;
+    right: 38.5px;
+}
+.box div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box div h3{
+    font-family: Outfit;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: center;
+color: #fff;    
+}
+.box div p{
+    font-family: Outfit;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: center;
+color: #fff;
+}
+footer nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+ background: #0C0E1866;
+}
+footer nav div h1{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color: #fff;
+}
+footer nav div ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+}
+footer nav div ul li{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #fff;
+}
